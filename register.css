@@ -1,0 +1,312 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    width: 100%;
+    height: 90px;
+    margin-top: -170px;
+    border: 0px, 0px, 1px, 0px;
+    background: linear-gradient(0deg, #F9F9F9, #F9F9F9),
+        linear-gradient(0deg, #A6A6A6, #A6A6A6);
+    border-bottom: 1px solid #A6A6A6;
+    position: fixed;
+}
+
+.box {
+    padding-bottom: 200px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.header {
+    width: 1, 224px;
+    height: 66px;
+    /* margin-top: 21px; */
+    margin-left: 108px;
+    gap: 1038px;
+    display: flex;
+}
+
+.header #logo {
+    width: 90px;
+    height: 90px;
+    /* margin-top: -25px; */
+}
+
+.corner {
+    width: 88px;
+    height: 40px;
+    gap: 8px;
+    margin-top: 30px;
+}
+
+.corner #England {
+    width: 40px;
+    height: 40px;
+    /* padding: 2px; */
+    border-radius: 4px;
+    gap: 16px;
+    background: #F9F9F9;
+}
+
+.corner #icon {
+    width: 40px;
+    height: 40px;
+    gap: 16px;
+    background: #F9F9F9;
+}
+
+.bottom {
+    width: 1064px;
+    height: 713px;
+    margin-top: 170px;
+    margin-left: 220px;
+    border-radius: 16px;
+    border: 1px;
+    background: linear-gradient(0deg, #EFEFEF, #EFEFEF),
+        linear-gradient(0deg, #A6A6A6, #A6A6A6);
+    border: 1px solid #A6A6A6;
+    display: flex;
+}
+
+.bottom #travel {
+    width: 416px;
+    height: 609px;
+    margin-top: 52px;
+    margin-left: 52px;
+    border-radius: 8px;
+
+}
+
+.register {
+    width: 392px;
+    height: 483px;
+    margin-top: 45px;
+    margin-left: 80px;
+    gap: 16px;
+
+}
+
+.register #Register {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: top;
+    margin-top: 0px;
+    margin-left: 5px;
+    font: bold;
+}
+
+.register #access {
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+label {
+    font-family: monospace;
+    width: 392px;
+    height: 77px;
+}
+
+.register #fname {
+    font-family: monospace;
+    width: 160px;
+    height: 30px;
+    top: 29px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 0.5px;
+    gap: 32px;
+    background: white;
+    color: black;
+    border: 0.5px solid #A6A6A6;
+    outline: none;
+
+}
+
+.register #name2 {
+    font-family: monospace;
+    margin-left: 130px;
+}
+
+.register #lname {
+    font-family: monospace;
+    width: 160px;
+    height: 30px;
+    top: 29px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 0.5px;
+    gap: 32px;
+    background: white;
+    color: black;
+    border: 0.5px solid #A6A6A6;
+    margin-left: 32px;
+    outline: none;
+
+}
+
+.register #Email {
+    font-family: monospace;
+    width: 392px;
+    height: 43px;
+    border-radius: 4px;
+    border: 0.5px;
+    gap: 32px;
+    color: black;
+    background-color: white;
+    border: 0.5px solid #A6A6A6;
+    outline: none;
+
+}
+
+.register #password {
+    font-family: monospace;
+    width: 392px;
+    height: 43px;
+    border-radius: 4px;
+    border: 0.5px;
+    gap: 32px;
+    color: black;
+    border: 0.5px solid #A6A6A6;
+    background-color: white;
+    outline: none;
+
+}
+.register #cpassword {
+    width: 392px;
+    height: 43px;
+    border-radius: 4px;
+    border: 0.5px;
+    gap: 32px;
+    color: black;
+    border: 0.5px solid #A6A6A6;
+    background-color: white;
+    outline: none;
+
+}
+.register #remember {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    border: 1px;
+    color: black;
+}
+
+.register #Remember {
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 103px;
+    height: 21px;
+    padding-top: 0px;
+}
+
+.register a {
+    text-decoration: none;
+    margin-left: 140px;
+}
+
+.register button {
+    width: 392px;
+    height: 48px;
+    border-radius: 4px;
+    gap: 16px;
+    background: #07689F;
+    color: white;
+    font-family: monospace;
+    font-size: large;
+    cursor: pointer;
+}
+.register #login{
+    margin-left: -1px;;
+}
+.register #or {
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+/* .register#facebook {
+    width: 48px;
+    height: 48px;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+    border: 1px;
+    gap: 8px;
+    background: white;
+    border: 1px solid #D9D9D9;
+    margin-left: 120px;
+}
+
+.register #apple {
+    width: 48px;
+    height: 48px;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+    border: 1px;
+    gap: 8px;
+    background: white;
+    border: 1px solid #D9D9D9;
+}
+
+.register #google {
+    width: 48px;
+    height: 48px;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+    border: 1px;
+    gap: 8px;
+    background: white;
+    border: 1px solid #D9D9D9;
+} */
+
+.register #dont {
+    font-family: monospace;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    margin-left: 125px;
+
+}
+
+.register #register {
+    margin-left: -1px;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+.logo{
+    width: 48px;
+    height: 48px;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+    border: 1px;
+    gap: 8px;
+    background: white;
+    border: 1px solid #D9D9D9;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.logo #apple{
+    background: white;
+}

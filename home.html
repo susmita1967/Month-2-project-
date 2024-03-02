@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasySet24</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui.min.css">
+
+    <!-- jQuery library (required by BotUI)
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    BotUI script
+    <script src="https://cdn.jsdelivr.net/npm/botui/build/botui.min.js"></script> -->
+</head>
+
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="header">
+                <img src="/icon/Large.png" id="logo">
+                <div class="search-container">
+                    <input type="text" id="Search" placeholder="Search">
+                    <img src="icon/search.png" class="search-icon">
+                </div>
+                <div class="bar">
+                    <img src="/icon/England.png" id="England">
+                    <img src="/icon/doller.png" id="doller">
+                    <img src="/icon/Icon Buttons.png" id="icon">
+                    <img src="/icon/Button.png" id="b">
+                    <img src="/icon/Phone.png" id="Phone">
+                </div>
+                <div class="anna">
+                    <img src="icon/idel.jpg" class="anna1">
+                    <p class="ann">Your Account</p>
+                    <p class="ann1">Anna Carinna</p>
+                </div>
+                <!-- <div class="in">
+                    <a href="login.html"> <button>Sign In</button></a>
+                    <a href="register.html"> <button>Register</button></a>
+                </div> -->
+            </div>
+            <div class="option">
+                <button>Trip</button>
+                <button>%Deals</button>
+                <button>Hotel</button>
+                <button>Flight</button>
+                <button>Apartment</button>
+                <button>Camper</button>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="/icon/Landing Page Banner With Effect.png">
+            <img src="/icon/Property 1=Variant2.png">
+            <img src="/icon/Property 1=Variant3.png">
+            <img src="icon/Property 1=Variant4.png">
+            <img src="icon/Property 1=Variant5.png">
+        </div>
+
+        <div class="details">
+            <div class="loc">
+                <img src="/icon/hotel.png">
+                <h1>Where Are you Going to?</h1>
+            </div>
+            <div class="cal">
+                <img src="/icon/calendar-dot.png">
+                <h1>Check In Date</h1>
+                <h1>Check Out Date</h1>
+            </div>
+            <div class="p">
+                <img src="/icon/people-plus-one.png">
+            </div>
+            <div class="req">
+                <h1>Adults 2</h1>
+                <h1>Children 3</h1>
+                <h1>Room</h1>
+                <img src="/icon/Frame 427320442.png">
+            </div>
+            <div class="button">
+                <button>Search</button>
+            </div>
+        </div>
+        <!-- <div id="chatbot-container">
+            <button id="chatbot-toggle">Toggle Chatbot</button>
+            <div id="chatbot" style="display: none;">
+                <div id="chatbot-messages">
+                    Chat messages will be displayed here
+                </div>
+                <div id="chatbot-input">
+                    <input type="text" id="user-input" placeholder="Type your message...">
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+        </div> -->
+
+        <h1 id="Offers">Special Offers</h1>
+        <div class="radio-buttons">
+            <input type="radio" name="travel_type" id="all" value="all">
+            <label for="all">All</label>
+            <input type="radio" name="travel_type" id="hotels" value="hotels">
+            <label for="hotels">Hotels</label>
+            <input type="radio" name="travel_type" id="flights" value="flights">
+            <label for="flights">Flights</label>
+            <input type="radio" name="travel_type" id="multi" value="multi">
+            <label for="multi">Multi</label>
+        </div>
+        <div class="deals1">
+            <div class="photo-container">
+                <img src="/icon/Photo 1.jpg" class="photo1">
+                <button class="photo-button">Deals discover <img src="/icon/arrow-right.png"></button>
+            </div>
+            <div class="photo-container">
+                <img src="/icon/Photo 2.jpg" class="photo2">
+                <button class="photo-button">Deals discover <img src="/icon/arrow-right.png"></button>
+            </div>
+            <div class="photo-container">
+                <img src="/icon/Photo 3.jpg" class="photo3">
+                <button class="photo-button">Deals discover <img src="/icon/arrow-right.png"></button>
+            </div>
+            <div class="photo-container">
+                <img src="/icon/Photo 4.jpg" class="photo4">
+                <button class="photo-button">Deals discover <img src="/icon/arrow-right.png"></button>
+            </div>
+            <div class="photo-container">
+                <img src="/icon/Photo 5.jpg" class="photo5">
+                <button class="photo-button">Deals discover <img src="/icon/arrow-right.png"></button>
+            </div>
+            <div class="photo-container">
+                <img src="/icon/Photo 6.jpg" class="photo6">
+                <button class="photo-button">Deals discover <img src="/icon/arrow-right.png"></button>
+            </div>
+        </div>
+        <h1 id="Trending">Explore Stays In Trending Destinations</h1>
+        <h2 id="Stays">Find Hot Stays!</h2>
+        <div class="explore1">
+            <div class="image-container">
+                <img src="/icon/Picture.png" class="xp">
+                <p id="ex1">Berlin</p>
+                <p id="ex2">SIDE</p>
+                <p id="ex3">Wed 25 Jan-Fri 27 Jan</p>
+                <p id="ex4">A tour of the city and its surroundings led by a professional guide ...</p>
+            </div>
+            <div class="image-container">
+                <img src="/icon/Picture (1).png" class="xp">
+                <p id="ex1">Paris</p>
+                <p id="ex2">SIDE</p>
+                <p id="ex3">Wed 25 Jan-Fri 27 Jan</p>
+                <p id="ex4">A tour of the city and its surroundings led by a professional guide ...</p>
+            </div>
+            <div class="image-container">
+                <img src="/icon/Picture (2).png" class="xp">
+                <p id="ex1">Madrid</p>
+                <p id="ex2">SIDE</p>
+                <p id="ex3">Wed 25 Jan-Fri 27 Jan</p>
+                <p id="ex4">A tour of the city and its surroundings led by a professional guide ...</p>
+            </div>
+            <div class="image-container">
+                <img src="/icon/Picture (3).png" class="xp">
+                <p id="ex1">Barcelona</p>
+                <p id="ex2">SIDE</p>
+                <p id="ex3">Wed 25 Jan-Fri 27 Jan</p>
+                <p id="ex4">A tour of the city and its surroundings led by a professional guide ...</p>
+            </div>
+        </div>
+        <div class="explore2">
+            <div class="image-container">
+                <img src="/icon/Picture (4).png" class="xp">
+                <p id="ex1">Rom</p>
+                <p id="ex2">SIDE</p>
+                <p id="ex3">Wed 25 Jan-Fri 27 Jan</p>
+                <p id="ex4">A tour of the city and its surroundings led by a professional guide ...</p>
+            </div>
+            <div class="image-container">
+                <img src="/icon/Picture (5).png" class="xp">
+                <p id="ex1">Milan</p>
+                <p id="ex2">SIDE</p>
+                <p id="ex3">Wed 25 Jan-Fri 27 Jan</p>
+                <p id="ex4">A tour of the city and its surroundings led by a professional guide ...</p>
+            </div>
+            <div class="image-container">
+                <img src="/icon/Picture (6).png" class="xp">
+                <p id="ex1">Istanbul</p>
+                <p id="ex2">SIDE</p>
+                <p id="ex3">Wed 25 Jan-Fri 27 Jan</p>
+                <p id="ex4">A tour of the city and its surroundings led by a professional guide ...</p>
+            </div>
+            <div class="image-container">
+                <img src="/icon/Picture (7).png" class="xp">
+                <p id="ex1">Dubai </p>
+                <p id="ex2">SIDE</p>
+                <p id="ex3">Wed 25 Jan-Fri 27 Jan</p>
+                <p id="ex4">A tour of the city and its surroundings led by a professional guide ...</p>
+            </div>
+        </div>
+        <div class="explore3">
+            <div class="image-container">
+                <img src="/icon/Picture (8).png" class="xp">
+                <p id="ex1">Amesterdam</p>
+                <p id="ex2">SIDE</p>
+                <p id="ex3">Wed 25 Jan-Fri 27 Jan</p>
+                <p id="ex4">A tour of the city and its surroundings led by a professional guide ...</p>
+            </div>
+            <div class="image-container">
+                <img src="/icon/Picture (9).png" class="xp">
+                <p id="ex1">New York</p>
+                <p id="ex2">SIDE</p>
+                <p id="ex3">Wed 25 Jan-Fri 27 Jan</p>
+                <p id="ex4">A tour of the city and its surroundings led by a professional guide ...</p>
+            </div>
+            <div class="image-container">
+                <img src="/icon/Picture (10).png" class="xp">
+                <p id="ex1">Marollca</p>
+                <p id="ex2">SIDE</p>
+                <p id="ex3">Wed 25 Jan-Fri 27 Jan</p>
+                <p id="ex4">A tour of the city and its surroundings led by a professional guide ...</p>
+            </div>
+            <div class="image-container">
+                <img src="/icon/Picture (11).png" class="xp">
+                <p id="ex1">Teneriffa</p>
+                <p id="ex2">SIDE</p>
+                <p id="ex3">Wed 25 Jan-Fri 27 Jan</p>
+                <p id="ex4">A tour of the city and its surroundings led by a professional guide ...</p>
+            </div>
+        </div>
+        <h1 id="Camper">Compare The Highest Reviewed Past Offers </h1>
+        <h2 id="Browse">Browse By Type</h2>
+        <div class="compare">
+            <div class="Flight">
+                <img src="/icon/Flight Photo.png" class="c">
+                <h1 id="Flight">Flight</h1>
+            </div>
+            <div class="Flight">
+                <img src="icon/Flight Photo (1).png" class="c">
+                <h1 id="Flight">Location </h1>
+            </div>
+            <div class="Flight">
+                <img src="icon/Flight Photo (2).png" class="c">
+                <h1 id="Flight">Hotel</h1>
+            </div>
+            <div class="Flight">
+                <img src="icon/Flight Photo (3).png" class="c">
+                <h1 id="Flight">Package</h1>
+            </div>
+        </div>
+        <div class="compare1">
+            <div class="Flight">
+                <img src="icon/Flight Photo (4).png" class="c">
+                <h1 id="Flight">Seasonal</h1>
+            </div>
+            <div class="Flight">
+                <img src="icon/Flight Photo (5).png" class="c">
+                <h1 id="Flight">Camps</h1>
+            </div>
+            <div class="Flight">
+                <img src="icon/Flight Photo (6).png" class="c">
+                <h1 id="Flight">Backpacking</h1>
+            </div>
+            <div class="Flight">
+                <img src="icon/Flight Photo (7).png" class="c">
+                <h1 id="Flight">Hostels</h1>
+            </div>
+        </div>
+        <div class="next">
+            <img src="/icon/Property 1=Default.png" class="slide active" id="next-img-1">
+            <img src="/icon/Property 1=Selected.png" class="slide" id="next-img-3">
+        </div>
+        <div class="out">
+            <div class="appstore">
+                <h2 id="Go">Go Further With The EasySet24 App</h2>
+                <p id="go1">Enjoy savings on chosen hotels and flights when you book through the EasySet24 website. </p>
+                <p id="go2">Additionally, earn One Key Cash for every booking made through the app.</p>
+                <p id="go3">Secured By Europe GTP</p>
+            </div>
+            <div class="in">
+                <img src="/icon/Auto layout scane  barcode.png" id="barcode">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="up">
+                <div class="about">
+                    <p id="about1">About Us</p>
+                    <p>Our Story</p>
+                    <p>Work With Us</p>
+                    <p>Press And Media</p>
+                    <p>Privacy & Security</p>
+                </div>
+                <div class="offer">
+                    <p id="about2">We Offer</p>
+                    <p>Trip Sponsorship</p>
+                    <p>Last Minutes Flights</p>
+                    <p>Best Deals</p>
+                    <p>AI-Driven Search </p>
+                </div>
+                <div class="headquaters">
+                    <p id="about3">Headquarters </p>
+                    <p>England</p>
+                    <p>France</p>
+                    <p>Canada</p>
+                    <p>Iceland</p>
+                </div>
+                <div class="blogs">
+                    <p id="about4">Travel Blogs</p>
+                    <p>Bali Travel Guide</p>
+                    <p>Sri Travel Guide</p>
+                    <p>Peru Travel Guide</p>
+                    <p>Swiss Travel Guide</p>
+                </div>
+                <div class="activity">
+                    <p id="about5">Activities</p>
+                    <p>Tour Leading</p>
+                    <p>Cruising & sailing</p>
+                    <p>Camping </p>
+                    <p>Kayaking</p>
+                </div>
+                <div class="service">
+                    <p id="about6">Service</p>
+                    <p>Report Error</p>
+                    <p>Ask online</p>
+                    <p>Travel insurance</p>
+                </div>
+            </div>
+            <div class="down">
+                <img src="/icon/Frame 427321028.png" class="f1">
+                <img src="icon/Frame 427320815.png" class="f2">
+                <div class="email-subscribe">
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    <button type="submit" id="sub">Subscribe</button>
+                </div>
+            </div>
+            <!-- <img src="icon/frame footer.png" class="frame"> -->
+            <div class="framefooter">
+                <img src="/icon/Frame 427320117.png" class="copy">
+                <h4 id="Copyright">Copyright EasySet24</h4>
+                <img src="/icon/Frame 427320112.png" class="frame">
+                <h4 id="Copyright">easyset24@gmail.com</h4>
+                <h3 id="set">"EasySet24: Seamless Journeys, Unrivalled Travel Wisdom!"</h3>
+                <img src="/icon/local-two.png" class="loca">
+                <h4 id="Copyright">123 Oxford Street,London</h4>
+                <img src="/icon/phone-call.png" class="call">
+                <h4 id="Copyright">+44 20 7123 4567</h4>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
