@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     // Get form elements
     const firstNameInput = document.getElementById("fname1");
     const lastNameInput = document.getElementById("lname1");
@@ -48,17 +48,17 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         // Additional validation logic can be added here
-        
+
         // If all validations pass
         return true;
     }
 
     // Add event listener to Confirm and Pay button
     const confirmButton = document.getElementById("b1");
-    confirmButton.addEventListener("click", function() {
+    confirmButton.addEventListener("click", function () {
         if (validateInputs()) {
-            alert("Confirmation successful!");
-            // Additional logic for payment confirmation can be added here
+            // Redirect to confirm.html after successful validation
+            window.location.href = "confirm.html";
         } else {
             alert("Please fill in all required fields.");
         }

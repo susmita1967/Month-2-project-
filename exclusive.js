@@ -1,5 +1,20 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Function to validate the form
+    const buttons = document.querySelectorAll('.option button');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', function () {
+            // Toggle active class for clicked button
+            this.classList.toggle('active');
+        });
+    });
+    const hotelButton = document.querySelector('.option button:nth-child(3)');
+
+    // Add event listener to the hotel button
+    hotelButton.addEventListener('click', function () {
+        // Redirect to hotel.html
+        window.location.href = 'hotel.html';
+    });
     function validateForm() {
         var fname = document.getElementById('fname').value.trim();
         var lname = document.getElementById('lname').value.trim();
@@ -35,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.paym').addEventListener('click', function () {
         // Validate the form before redirecting to payment page
         if (validateForm()) {
-            window.location.href = 'payment.html';
+            window.location.href = 'confirm.html';
         }
     });
 

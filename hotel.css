@@ -18,16 +18,13 @@ body {
     height: 209px;
     left: 1px;
     border: 0px, 0px, 2px, 0px;
-    /* position: fixed; */
-    background: #F9F9F9;
-
     position: fixed;
-    margin-top: -220px;
-    z-index: 999;
     background: linear-gradient(0deg, #F9F9F9, #F9F9F9),
         linear-gradient(0deg, #D9D9D9, #D9D9D9);
     border-bottom: 2px solid #D9D9D9;
-
+    position: fixed;
+    margin-top: -220px;
+    z-index: 999;
 }
 
 .header {
@@ -37,9 +34,8 @@ body {
     left: 108px;
     gap: 40px;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 100px;
     display: flex;
-    /* align-items: center; */
 }
 
 /* .left{
@@ -50,7 +46,7 @@ body {
     width: 90px;
     height: 90px;
     /* margin-top: -25px; */
-    margin-left: 150px;
+    margin-left: 70px;
 }
 
 #Search {
@@ -65,30 +61,20 @@ body {
 
 }
 
-.search-container {
+/* .search-container {
     position: relative;
-
-}
-
-/* ::placeholder{
-    margin-left: 10px;
-    margin-right: -5001px;
 } */
 
 .search-icon {
     position: absolute;
-    right: 10px;
+    right: 595px;
     /* Adjust as needed */
-    top: 32%;
+    top: 36.5%;
     transform: translateY(-50%);
 }
 
 .bar {
     margin-top: 35px;
-}
-
-.bar img:hover {
-    transform: scale(1.5);
 }
 
 .bar #icon {
@@ -134,6 +120,10 @@ body {
     cursor: pointer;
 }
 
+.bar img:hover {
+    transform: scale(1.5);
+}
+
 .bar #Phone {
     width: 40px;
     height: 40px;
@@ -145,9 +135,6 @@ body {
     cursor: pointer;
 }
 
-/* .anna{
-    display: flex;
-} */
 .anna1 {
     width: 40px;
     height: 40px;
@@ -214,68 +201,28 @@ body {
     height: 40px;
     width: 100px;
     padding: 8px 16px;
+    /* Adjust padding as needed */
     border-radius: 30px;
     margin-right: 35px;
     background-color: #fff;
     color: #000;
     border: 2px solid #07689F;
     transition: background-color 0.1s, color 0.1s;
+    /* Add transition effect */
     cursor: pointer;
 }
 
 .option button.active,
 .option button:hover {
     background-color: #07689F;
-    color: #fff;
-}
-
-
-/* Example styling for the buttons */
-.option button {
-    font-family: monospace;
-    height: 40px;
-    width: 100px;
-    padding: 8px 16px;
-    border-radius: 30px;
-    margin-right: 35px;
-    background-color: #fff;
-    color: #000;
-    border: 2px solid #07689F;
-    transition: background-color 0.1s, color 0.1s;
-    cursor: pointer;
-}
-
-/* Apply hover effect only to the "Hotel" button */
-.option button:nth-child(3):hover {
-    background-color: #07689F;
     /* Blue color */
     color: #fff;
     /* White text */
 }
 
-/* Apply active state to the "Hotel" button */
-.option button:nth-child(3).active {
-    background-color: #07689F;
-    /* Blue color */
-    color: #fff;
-    /* White text */
-}
-
-/* hotel.css */
-
-/* Apply hover effect when the button has the 'hover' class */
-.option button.hover,
-.option button:hover {
-    background-color: #07689F;
-    /* Blue color */
-    color: #fff;
-    /* White text */
-}
-
-.option button.active,
-.option button:hover {
-    background-color: #07689F;
-    color: #fff;
+.option button.h {
+    background-color: #07689F; /* Set background color for the Hotel button */
+    color: white; /* Set text color for the Hotel button */
 }
 
 #t1 {
@@ -514,6 +461,7 @@ body {
     display: flex;
     margin-left: 105px;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 .box {
@@ -1228,9 +1176,123 @@ gap: 10px; */
     color: #000000;
 }
 
+.show {
+    width: 1250px;
+    height: 631px;
+    /* top: 3536px;
+    left: 108px; */
+    margin-left: 135px;
+    margin-top: 50px;
+    gap: 24px;
+
+}
+
+.show1,
+.show2 {
+    display: flex;
+    /* flex-direction: column;
+  align-items: center;
+  margin: 10px; */
+    position: relative;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+.public {
+    width: 600px;
+    height: 346px;
+    padding: 16px;
+    border-radius: 8px 0px 0px 0px;
+    /* top-left, top-right, bottom-right, bottom-left */
+    gap: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.pool {
+    width: 600px;
+    height: 346px;
+    padding: 16px;
+    border-radius: 0px 8px 0px 0px;
+    /* top-left, top-right, bottom-right, bottom-left */
+    gap: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.pool1 {
+    width: 600px;
+    height: 261px;
+    padding: 16px;
+    border-radius: 0px 0px 8px 8px;
+    /* top-left, top-right, bottom-right, bottom-left */
+    gap: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.mob {
+    width: 600px;
+    height: 261px;
+    padding: 16px;
+    border-radius: 0px 0px 0px 8px;
+    /* top-left, top-right, bottom-right, bottom-left */
+    gap: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+.show p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: monospace;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    max-width: calc(100% - 20px);
+    text-align: center;
+    z-index: 1;
+    cursor: pointer;
+}
+.public,
+.pool,
+.pool1,
+.mob {
+    border-radius: 20px; /* Adjust border-radius as needed */
+}
+
+.s1,
+.s3 {
+    margin-left: 20px;
+}
+
+.s2,
+.s4 {
+    margin-left: 650px;
+}
+
+/* .s1,
+.s2,
+.s3,
+.s4 {
+    transition: opacity 0.3s ease;
+}
+
+.show:hover .s1,
+.show:hover .s2,
+.show:hover .s3,
+.show:hover .s4 {
+    opacity: 0;
+} */
+
 .out {
     display: flex;
-    margin-top: 40px;
+    margin-top: 80px;
     height: 150px;
     border-bottom: 2px solid #EFEFEF
 }

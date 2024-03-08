@@ -19,6 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Add click event listener to the search button
     searchButton.addEventListener('click', function () {
         // Redirect to the exclusive.html page
-        window.location.href = 'dream.html';
+        window.location.href = 'book.html';
     });
 });

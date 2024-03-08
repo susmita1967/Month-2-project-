@@ -233,6 +233,12 @@ body {
     color: #fff;
     /* White text */
 }
+.option button.h {
+    background-color: #07689F;
+    /* Set background color for the Hotel button */
+    color: white;
+    /* Set text color for the Hotel button */
+}
 
 .active {
     background-color: #07689F;
@@ -268,6 +274,7 @@ body {
     border-radius: 8px;
     background: #FFFFFF;
     display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .lphoto {
@@ -396,6 +403,7 @@ body {
     border-radius: 8px;
     background: #FFFFFF;
     margin-top: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .check {
@@ -465,7 +473,7 @@ body {
     position: relative;
     font-family: monospace;
     font-size: 13px;
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .room img {
@@ -593,6 +601,7 @@ body {
     background: #FFFFFF;
     margin-top: 40px;
     font-family: monospace;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 #t11 {
@@ -728,6 +737,7 @@ body {
     background: #FFFFFF;
     margin-top: 50px;
     font-family: monospace;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .method1 {
@@ -854,6 +864,7 @@ background: #FFFFFF; */
     border-radius: 8px;
     gap: 10px;
     background: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .info3 {
@@ -957,6 +968,7 @@ background: #FFFFFF; */
     gap: 10px;
     background: #ffffff;
     margin-top: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .txt6 {
@@ -1098,7 +1110,7 @@ background: #FFFFFF; */
     gap: 24px;
     font-family: monospace;
     background: #FFFFFF;
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .container p {
@@ -1249,7 +1261,7 @@ background: #FFFFFF; */
     border-radius: 8px;
     gap: 8px;
     background: #FFFFFF;
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .binfo h1 {

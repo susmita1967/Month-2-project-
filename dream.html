@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<head>
+    <title>EasySet24</title>
+    <link rel="stylesheet" href="dream.css">
+    <script src="dream.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="header">
+                <img src="/icon/Large.png" id="logo">
+                <div class="search-container">
+                    <input type="text" id="Search" placeholder="Search">
+                    <img src="icon/search.png" class="search-icon">
+                </div>
+                <div class="bar">
+                    <img src="/icon/England.png" id="England">
+                    <img src="/icon/doller.png" id="doller">
+                    <a href="service.html"><img src="/icon/Icon Buttons.png" id="icon"></a>
+                    <a href="favorite.html"><img src="/icon/Button.png" id="b"></a>
+                    <a href="contact.html"><img src="/icon/Phone.png" id="Phone"></a>
+                </div>
+                <div class="anna">
+                    <img src="icon/idel.jpg" class="anna1">
+                    <p class="ann">Your Account</p>
+                    <p class="ann1">Anna Carinna</p>
+                </div>
+            </div>
+            <div class="option">
+                <button>Trip</button>
+                <button>%Deals</button>
+                <button class="active" id="hotelButton">Hotel</button>
+                <button>Flight</button>
+                <button>Apartment</button>
+                <button>Camper</button>
+            </div>
+
+        </div>
+        <p id="t1">Where is your Next Dream Place?</p>
+        <p id="t2">Find exclusive Genius rewards in every corner of the world!</p>
+        <div class="txt">
+            <h1 id="t3">Place</h1>
+            <h1 id="t4">VIP</h1>
+            <h1 id="t5">Passengers - Room Condition</h1>
+            <h1 id="t6">Check In -Check Out</h1>
+        </div>
+        <div class="details">
+            <div class="loc">
+                <img src="/icon/hotel.png">
+                <h1>Gothenburg</h1>
+            </div>
+            <div class="vip">
+                <h1> Loyalty Gifts</h1>
+                <img src="/icon/drop-down-list.png">
+            </div>
+            <div class="p">
+                <img src="/icon/people.png">
+            </div>
+            <div class="req">
+                <h1>2 Adults - 3 Children Two Rooms</h1>
+                <img src="/icon/drop-down-list.png">
+            </div>
+            <div class="cal">
+                <img src="/icon/calendar-dot.png">
+                <h1>18 Dec 2023 - 23 Dec 2023 </h1>
+            </div>
+
+            <div class="button">
+                <button id="searchButton">Search</button>
+            </div>
+        </div>
+        <div class="g">
+            <div class="gl">
+                <img src="icon/map.png" class="map">
+                <img src="icon/Ladmark Sign.png" class="loc1">
+            </div>
+            <button class="sort">
+                <strong style="font-size: 14px;">Sort By</strong>: Our top Picks For Families
+                <img src="icon/ud.png">
+                <div class="sort1">
+                    <p class="s1">Gothenburg</p>
+                    <p class="s2">120 Properties Found</p>
+                    <p class="s3">travel professionals dedicated to simplifying your travel experience by curating
+                        flight and accommodation services on a user-friendly platform. Committed to quality and
+                        assurance. <span class="heilight">Find More Here ...</span></p>
+                </div>
+            </button>
+        </div>
+        <div class="fav">
+            <div class="left">
+                <h2>Filter By</h2>
+                <h4>Your Budget for per night </h4>
+                <input type="range" min="0" max="100" value="50" class="slider" id="mySlider">
+                <div class="price">
+                    <input type="number" placeholder="Min Price    $">
+                    <input type="number" placeholder="Max Price    $">
+                </div>
+                <div class="container1">
+                    <h2>Popular Filters</h2>
+                    <label class="radio-container">
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Breakfast included </span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">All-inclusive</span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Free Cancellation</span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Pool</span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Pet friendly</span>
+                        <br>
+                        <a href="#">Show More</a>
+                    </label>
+                </div>
+                <div class="container1">
+                    <h2>Room Facilities</h2>
+                    <label class="radio-container">
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Own Bathroom</span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Kitchen</span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">See View</span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Baby Bed</span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Bathtub</span>
+                        <br>
+                        <a href="#">Show More</a>
+                    </label>
+                </div>
+                <div class="container2">
+                    <h2>Gusts Rating</h2>
+                    <label class="radio-container">
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">All </span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Outstanding 9+</span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Very good 8+</span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Good 7+</span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Excellent</span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Poor</span>
+                        <br>
+                        <a href="#">Show More</a>
+                    </label>
+                </div>
+                <div class="container2">
+                    <h2>Bed Type</h2>
+                    <label class="radio-container">
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Two Single Beds</span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">King Beds</span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Baby Cots</span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Double Bed </span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Single Beds</span>
+                        <br>
+                        <a href="#">Show More</a>
+                    </label>
+                </div>
+                <div class="container1">
+                    <h2>Leisure activities </h2>
+                    <label class="radio-container">
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Sauna</span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Fitness Centree</span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Bar</span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Steam Bath</span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Yoga</span>
+                        <br>
+                        <a href="#">Show More</a>
+                    </label>
+                </div>
+                <div class="container1">
+                    <h2>Travel Sustainability </h2>
+                    <label class="radio-container">
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Level 2 and Above 1</span>
+                        <br>
+                        <input type="checkbox" name="guest_type" class="checkbox-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Level and Above 2</span>
+                        <br>
+                        <a href="#">Show More</a>
+                    </label>
+                </div>
+                <div class="container2">
+                    <h2>Accommodation classification</h2>
+                    <label class="radio-container">
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">5 Star</span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">4 Star</span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">3 Star</span>
+                        <br>
+                        <a href="#">Show More</a>
+                    </label>
+                </div>
+                <div class="container2">
+                    <h2>Distance from the centre</h2>
+                    <label class="radio-container">
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Less Than 1 Km</span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Less Than 5 Km</span>
+                        <br>
+                        <input type="radio" name="guest_type" class="radio-button">
+                        <span class="radio-custom"></span>
+                        <span class="radio-text">Less Than 15 Km</span>
+                        <br>
+                </div>
+            </div>
+            <div class="right">
+                <div class="blu1">
+                    <img src="icon/Photo.png">
+                    <div class="r1">
+                        <h2>Radisson Blu</h2>
+                        <p class="txt1"><img src="icon/local.png">Located In Downton, 500m Distance to Shore</p>
+                        <p class="txt2"><img src="icon/cup-four.png">Breakfast Included</p>
+                        <p class="txt3"><img src="icon/people.png">1 Adult, 2 Children <img src="icon/time.png">4 Nights
+                        </p>
+                        <p class="txt4">Experience Unique Opportunity </p>
+                        <p class="txt5">Standard rooms </p>
+                        <p class="txt6"><strong>Very Good </strong>, 2.259 Reviews <img src="icon/Icon.png"></p>
+                    </div>
+                    <div class="r2">
+                        <p class="txt7">
+                            <span class="discount">12% Off</span>
+                            <span class="background">$125</span>
+                            <br><br>
+                            <span class="txt8">Includes taxes and charges</span>
+                            <br>
+                            <img src="icon/Leaf.png">
+                            <span class="txt9">Trip Sustainable Level, 5</span>
+                            <br>
+                            <img src="icon/attention.png">
+                            <span class="txt10">We Have 8 Left at 12% off</span>
+                            <br>
+                            <a href="booked.html">See Availability <img src="icon/right a.png"></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="blu1">
+                    <img src="icon/Photo (1).png">
+                    <div class="r1">
+                        <h2>Radisson Blu</h2>
+                        <p class="txt1"><img src="icon/local.png">Located In Downton, 500m Distance to Shore</p>
+                        <p class="txt2"><img src="icon/cup-four.png">Breakfast Included</p>
+                        <p class="txt3"><img src="icon/people.png">1 Adult, 2 Children <img src="icon/time.png">4 Nights
+                        </p>
+                        <p class="txt4">Experience Unique Opportunity </p>
+                        <p class="txt5">Standard rooms </p>
+                        <p class="txt6"><strong>Very Good </strong>, 2.259 Reviews <img src="icon/Icon.png"></p>
+                    </div>
+                    <div class="r2">
+                        <p class="txt7">
+                            <span class="discount">10% Off</span>
+                            <span class="background">$130</span>
+                            <br><br>
+                            <span class="txt8">Includes taxes and charges</span>
+                            <br>
+                            <img src="icon/Leaf.png">
+                            <span class="txt9">Trip Sustainable Level, 5</span>
+                            <br>
+                            <img src="icon/attention.png">
+                            <span class="txt10">We Have 5 Left at 10% off</span>
+                            <br>
+                            <a href="booked.html">See Availability <img src="icon/right a.png"></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="blu1">
+                    <img src="icon/photo (2).png">
+                    <div class="r1">
+                        <h2>Radisson Blu</h2>
+                        <p class="txt1"><img src="icon/local.png">Located In Downton, 500m Distance to Shore</p>
+                        <p class="txt2"><img src="icon/cup-four.png">Breakfast Included</p>
+                        <p class="txt3"><img src="icon/people.png">1 Adult, 2 Children <img src="icon/time.png">4 Nights
+                        </p>
+                        <p class="txt4">Experience Unique Opportunity </p>
+                        <p class="txt5">Standard rooms </p>
+                        <p class="txt6"><strong>Very Good </strong>, 2.259 Reviews <img src="icon/Icon.png"></p>
+                    </div>
+                    <div class="r2">
+                        <p class="txt7">
+                            <span class="discount">8% Off</span>
+                            <span class="background">$145</span>
+                            <br><br>
+                            <span class="txt8">Includes taxes and charges</span>
+                            <br>
+                            <img src="icon/Leaf.png">
+                            <span class="txt9">Trip Sustainable Level, 5</span>
+                            <br>
+                            <img src="icon/attention.png">
+                            <span class="txt10">We Have 2 Left at 8% off</span>
+                            <br>
+                            <a href="booked.html">See Availability <img src="icon/right a.png"></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="blu1">
+                    <img src="icon/photo (3).png">
+                    <div class="r1">
+                        <h2>Radisson Blu</h2>
+                        <p class="txt1"><img src="icon/local.png">Located In Downton, 500m Distance to Shore</p>
+                        <p class="txt2"><img src="icon/cup-four.png">Breakfast Included</p>
+                        <p class="txt3"><img src="icon/people.png">1 Adult, 2 Children <img src="icon/time.png">4 Nights
+                        </p>
+                        <p class="txt4">Experience Unique Opportunity </p>
+                        <p class="txt5">Standard rooms </p>
+                        <p class="txt6"><strong>Very Good </strong>, 2.259 Reviews <img src="icon/Icon.png"></p>
+                    </div>
+                    <div class="r2">
+                        <p class="txt7">
+                            <span class="discount">4% Off</span>
+                            <span class="background">$150</span>
+                            <br><br>
+                            <span class="txt8">Includes taxes and charges</span>
+                            <br>
+                            <img src="icon/Leaf.png">
+                            <span class="txt9">Trip Sustainable Level, 5</span>
+                            <br>
+                            <img src="icon/attention.png">
+                            <span class="txt10">We Have 21 Left at 4% off</span>
+                            <br>
+                            <a href="booked.html">See Availability <img src="icon/right a.png"></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="blu1">
+                    <img src="icon/photo (4).png">
+                    <div class="r1">
+                        <h2>Radisson Blu</h2>
+                        <p class="txt1"><img src="icon/local.png">Located In Downton, 500m Distance to Shore</p>
+                        <p class="txt2"><img src="icon/cup-four.png">Breakfast Included</p>
+                        <p class="txt3"><img src="icon/people.png">1 Adult, 2 Children <img src="icon/time.png">4 Nights
+                        </p>
+                        <p class="txt4">Experience Unique Opportunity </p>
+                        <p class="txt5">Standard rooms </p>
+                        <p class="txt6"><strong>Very Good </strong>, 2.259 Reviews <img src="icon/Icon.png"></p>
+                    </div>
+                    <div class="r2">
+                        <p class="txt7">
+                            <span class="discount">30% Off</span>
+                            <span class="background">$218</span>
+                            <br><br>
+                            <span class="txt8">Includes taxes and charges</span>
+                            <br>
+                            <img src="icon/Leaf.png">
+                            <span class="txt9">Trip Sustainable Level, 5</span>
+                            <br>
+                            <img src="icon/attention.png">
+                            <span class="txt10">We Have 6 Left at 30% off</span>
+                            <br>
+                            <a href="booked.html">See Availability <img src="icon/right a.png"></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="his">
+                    <a href="favorite.html"><button class="his1">
+                        <p class="txt11">List your Favourite Places <img src="icon/Vector.png" id="ir"></p>
+                    </button></a>
+                    <button class="his2">
+                        <p class="txt12">See More Search Results <img src="icon/right.png" id="ir"></p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="out">
+            <div class="appstore">
+                <h2 id="Go">Go Further With The EasySet24 App</h2>
+                <p id="go1">Enjoy savings on chosen hotels and flights when you book through the EasySet24 website. </p>
+                <p id="go2">Additionally, earn One Key Cash for every booking made through the app.</p>
+                <p id="go3">Secured By Europe GTP</p>
+            </div>
+            <div class="in">
+                <img src="/icon/Auto layout scane  barcode.png" id="barcode">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="up">
+                <div class="about">
+                    <p id="about1">About Us</p>
+                    <p>Our Story</p>
+                    <p>Work With Us</p>
+                    <p>Press And Media</p>
+                    <p>Privacy & Security</p>
+                </div>
+                <div class="weoffer">
+                    <p id="about2">We Offer</p>
+                    <p>Trip Sponsorship</p>
+                    <p>Last Minutes Flights</p>
+                    <p>Best Deals</p>
+                    <p>AI-Driven Search </p>
+                </div>
+                <div class="headquaters">
+                    <p id="about3">Headquarters </p>
+                    <p>England</p>
+                    <p>France</p>
+                    <p>Canada</p>
+                    <p>Iceland</p>
+                </div>
+                <div class="blogs">
+                    <p id="about4">Travel Blogs</p>
+                    <p>Bali Travel Guide</p>
+                    <p>Sri Travel Guide</p>
+                    <p>Peru Travel Guide</p>
+                    <p>Swiss Travel Guide</p>
+                </div>
+                <div class="activity">
+                    <p id="about5">Activities</p>
+                    <p>Tour Leading</p>
+                    <p>Cruising & sailing</p>
+                    <p>Camping </p>
+                    <p>Kayaking</p>
+                </div>
+                <div class="service">
+                    <p id="about6">Service</p>
+                    <p>Report Error</p>
+                    <p>Ask online</p>
+                    <p>Travel insurance</p>
+                </div>
+            </div>
+            <div class="down">
+                <img src="/icon/Frame 427321028.png" class="f1">
+                <img src="icon/Frame 427320815.png" class="f2">
+                <div class="email-subscribe">
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    <button type="submit" id="sub">Subscribe</button>
+                </div>
+            </div>
+
+            <div class="framefooter">
+                <img src="/icon/Frame 427320117.png" class="copy">
+                <h4 id="Copyright">Copyright EasySet24</h4>
+                <img src="/icon/Frame 427320112.png" class="frame">
+                <h4 id="Copyright">easyset24@gmail.com</h4>
+                <h3 id="set">"EasySet24: Seamless Journeys, Unrivalled Travel Wisdom!"</h3>
+                <img src="/icon/local-two.png" class="loca">
+                <h4 id="Copyright">123 Oxford Street,London</h4>
+                <img src="/icon/phone-call.png" class="call">
+                <h4 id="Copyright">+44 20 7123 4567</h4>
+            </div>
+        </div>
+</body>
+
+</html>
