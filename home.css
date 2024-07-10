@@ -485,7 +485,6 @@ body {
     position: absolute;
     bottom: 10px;
     left: 10px;
-    /* Adjust as needed */
     padding: 8px 16px;
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
@@ -497,10 +496,9 @@ body {
 .photo-button img {
     vertical-align: middle;
     margin-left: 10px;
-    /* Add margin-top to adjust position */
     margin-top: 1px;
-    /* Adjust as needed */
 }
+
 
 #Trending {
     margin-left: 140px;
