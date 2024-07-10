@@ -229,6 +229,7 @@ body {
     position: relative;
     overflow: hidden;
     width: 100%;
+    max-width: 100%; /* Ensure the banner does not exceed its container's width */
     height: 394px;
     margin-top: 210px;
 }
@@ -241,6 +242,7 @@ body {
     transition: opacity 1s ease-in-out;
     width: 100%;
     height: 394px;
+    object-fit: cover; /* Ensure images fill the container without stretching */
     z-index: -10;
 }
 
@@ -250,7 +252,7 @@ body {
 
 .banner-text {
     position: absolute;
-    bottom: 0;
+    bottom: 20px; /* Adjusted bottom spacing for text */
     left: 50%;
     transform: translateX(-50%);
     font-size: 24px;
