@@ -481,29 +481,35 @@ body {
 .photo-container {
     position: relative;
     display: inline-block;
+    overflow: hidden; /* Ensure button doesn't overflow if content is larger */
 }
 
 .photo-button {
     position: absolute;
     bottom: 10px;
     left: 10px;
-    /* Adjust as needed */
     padding: 8px 16px;
-    background-color: rgb(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7); /* Use rgba for transparent background with opacity */
     color: white;
     border: none;
-    /* border: 1px solid #000000; */
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.photo-button:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* Darker shade on hover */
 }
 
 .photo-button img {
     vertical-align: middle;
     margin-left: 10px;
-    /* Add margin-top to adjust position */
-    margin-top: 1px;
-    /* Adjust as needed */
 }
+
+.photo-button:focus {
+    outline: none; /* Remove default focus outline for better aesthetics */
+}
+
 
 #Trending {
     margin-left: 140px;
