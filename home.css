@@ -484,6 +484,14 @@ body {
     overflow: hidden; /* Ensure button doesn't overflow if content is larger */
 }
 
+.photo-container img {
+    max-width: 100%; /* Ensure images resize proportionally */
+    height: auto;
+    display: block; /* Prevents extra space below inline images */
+    /* Optimize image loading */
+    transition: opacity 0.3s ease;
+}
+
 .photo-button {
     position: absolute;
     bottom: 10px;
