@@ -118,15 +118,9 @@
                 <button class="photo-button">Deals discover <img src="/icon/arrow-right.png"></button>
             </div>
             <div class="photo-container">
-                <picture>
-                    <!-- WebP format for modern browsers -->
-                    <source srcset="/icon/Photo 3.webp" type="image/webp">
-                    <!-- Fallback JPEG format for other browsers -->
-                    <img src="/icon/Photo 3.jpg" class="photo3" alt="Photo 3" loading="lazy">
-                </picture>
-                <button class="photo-button">Deals discover <img src="/icon/arrow-right.webp" type="image/webp" alt="Arrow" loading="lazy"></button>
+                <img src="/icon/Photo 3.jpg" class="photo3">
+                <button class="photo-button">Deals discover <img src="/icon/arrow-right.png"></button>
             </div>
-            
             <div class="photo-container">
                 <img src="/icon/Photo 4.jpg" class="photo4" loading="eager">
                 <button class="photo-button">Deals discover <img src="/icon/arrow-right.png" loading="lazy"></button>
@@ -282,6 +276,12 @@
                 <source srcset="/icon/Property 1=Selected.webp" type="image/webp">
                 <!-- Fallback PNG format for other browsers -->
                 <img src="/icon/Property 1=Selected.png" class="slide" id="next-img-3">
+            </picture>
+            <picture>
+                <!-- WebP format for modern browsers -->
+                <source srcset="/icon/Property 1=Default.webp" type="image/webp">
+                <!-- Fallback PNG format for other browsers -->
+                <img src="/icon/Property 1=Default.png" class="slide active" id="next-img-1" alt="Default Image">
             </picture>
         </div>
         
