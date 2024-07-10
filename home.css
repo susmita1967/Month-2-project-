@@ -411,11 +411,11 @@ body {
 }
 
 .deals1 {
-    height: 560x;
-    /* width: 100%; */
+    height: 560px; /* Corrected height value */
+    width: 100%; /* Adjusted width to be 100% */
     margin-left: 140px;
     margin-top: 30px;
-    border-radius: 8px, 8px, 8px, 8px;
+    border-radius: 8px; /* Corrected border-radius syntax */
     cursor: pointer;
 }
 
