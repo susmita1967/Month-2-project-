@@ -229,7 +229,7 @@ body {
     position: relative;
     overflow: hidden;
     width: 100%;
-    max-width: 100%; /* Ensure the banner does not exceed its container's width */
+    max-width: 100%;
     height: 394px;
     margin-top: 210px;
 }
