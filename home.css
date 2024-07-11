@@ -468,7 +468,9 @@ body {
 .deals1 img {
     margin-right: 10px;
     transition: opacity 0.5s ease;
-    /* Add transition for smooth effect */
+    width: 100%;
+    height: auto;
+    /* Ensure images are responsive */
 }
 
 .deals1 img:hover {
@@ -479,6 +481,8 @@ body {
 .photo-container {
     position: relative;
     display: inline-block;
+    width: 300px; /* Specify the width of the container */
+    height: 200px; /* Specify the height of the container */
 }
 
 .photo-button {
