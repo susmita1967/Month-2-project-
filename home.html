@@ -118,9 +118,15 @@
                 <button class="photo-button">Deals discover <img src="/icon/arrow-right.png" loading="lazy" alt="Arrow"></button>
             </div>
             <div class="photo-container">
-                <img src="/icon/Photo 3.jpg" class="photo3" loading="lazy">
+                <!-- WebP format for modern browsers -->
+                <picture>
+                    <source srcset="/icon/Photo 3.webp" type="image/webp">
+                    <!-- Fallback JPEG format for other browsers -->
+                    <img src="/icon/Photo 3.jpg" class="photo3" loading="lazy" alt="Photo 3">
+                </picture>
                 <button class="photo-button">Deals discover <img src="/icon/arrow-right.png" loading="lazy" alt="Arrow"></button>
             </div>
+            
             <div class="photo-container">
                 <img src="/icon/Photo 4.jpg" class="photo4" loading="eager">
                 <button class="photo-button">Deals discover <img src="/icon/arrow-right.png" loading="lazy" alt="Arrow"></button>
