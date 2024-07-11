@@ -510,7 +510,8 @@ body {
     font-family: monospace;
 }
 
-.explore1 {
+/* Shared styles for explore sections */
+.explore-section {
     margin-left: 140px;
     margin-top: 20px;
     cursor: pointer;
@@ -519,57 +520,19 @@ body {
     font-family: monospace;
 }
 
-.explore1 img {
-    margin-right: 10px;
+.explore-section img {
     transition: opacity 0.5s ease;
 }
 
-/* 
-.explore1 img:hover {
-    opacity: 0.5;
-} */
-
-.explore2 {
-    margin-left: 140px;
-    margin-top: 20px;
-    cursor: pointer;
-    display: flex;
-    gap: 20px;
-    font-family: monospace;
-}
-
-.explore2 img {
-    margin-right: 10px;
-    transition: opacity 0.5s ease;
-}
-
-/* 
-.explore2 img:hover {
-    opacity: 0.5;
-} */
-
-.explore3 {
-    margin-left: 140px;
-    margin-top: 20px;
-    cursor: pointer;
-    display: flex;
-    gap: 20px;
-    font-family: monospace;
-}
-
-.explore3 img {
-    margin-right: 10px;
-    transition: opacity 0.5s ease;
-}
-
-/* .explore3 img:hover {
+/* Commented out hover effect for images */
+/* .explore-section img:hover {
     opacity: 0.5;
 } */
 
 .xp {
     width: 272px;
     height: 203px;
-    border-radius: 4px, 4px, 0px, 0px;
+    border-radius: 4px;
     background: linear-gradient(0deg, #D9D9D9, #D9D9D9),
         linear-gradient(0deg, #FFFFFF, #FFFFFF);
 }
@@ -581,29 +544,16 @@ body {
 .image-container {
     width: 275px;
     height: 367px;
-    /* Automatically adjust height to fit content */
     padding: 8px;
-    border-radius: 8px;
-    border: 1px;
-    /* Add border */
-    border-radius: 8px;
     margin-bottom: 16px;
-    /* Add margin between boxes */
-    /* background: linear-gradient(0deg, #D9D9D9, #D9D9D9),
-linear-gradient(0deg, #FFFFFF, #FFFFFF); */
     border: 1px solid #D9D9D9;
-
-
-
+    border-radius: 8px;
 }
 
 .xp {
     width: 100%;
-    /* Ensure image fills its container */
     height: auto;
-    /* Maintain aspect ratio */
     border-radius: 8px;
-    /* Apply border-radius to image */
 }
 
 #ex1 {
