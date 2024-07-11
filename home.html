@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="home.css">
     <script src="home.js"></script>
     <link rel="preload" as="image" href="/icon/Landing Page Banner With Effect.png">
-    <link rel="preload" as="image" href="/icon/Photo 4.jpg">
+    <link rel="preload" href="/icon/Photo 4.jpg" as="image">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui.min.css"> -->
 
     <!-- jQuery library (required by BotUI)
@@ -122,8 +122,9 @@
                 <button class="photo-button">Deals discover <img src="/icon/arrow-right.png" loading="lazy" alt="Arrow"></button>
             </div>
             <div class="photo-container">
-                <img src="/icon/Photo 4.jpg" class="photo4" loading="eager" width="300" height="200" alt="Photo 4">
+                <img src="/icon/Photo 4.jpg" class="photo4" loading="eager" width="300" height="200" alt="Photo 4" srcset="/icon/Photo 4-480w.jpg 480w, /icon/Photo 4-800w.jpg 800w" sizes="(max-width: 600px) 480px, 800px">
                 <button class="photo-button">Deals discover <img src="/icon/arrow-right.png" loading="lazy" alt="Arrow"></button>
+                <img src="/icon/Photo 4.webp" class="photo4" loading="eager" width="300" height="200" alt="Photo 4" srcset="/icon/Photo 4-480w.webp 480w, /icon/Photo 4-800w.webp 800w" sizes="(max-width: 600px) 480px, 800px">
             </div>
             <div class="photo-container">
                 <img src="/icon/Photo 5.jpg" class="photo5" loading="lazy" width="300" height="200" alt="Photo 5">
