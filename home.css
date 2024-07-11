@@ -238,16 +238,15 @@ body {
     top: 0;
     left: 0;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 1s ease-in-out;
     width: 100%;
-    height: auto; /* Adjust as needed based on aspect ratio */
+    height: 394px;
     z-index: -10;
 }
 
 .banner img.active {
     opacity: 1;
 }
-
 
 .banner-text {
     position: absolute;
